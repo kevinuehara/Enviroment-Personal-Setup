@@ -26,6 +26,9 @@ Tools:
 - Slack
 - Discord
 
+## OS Requirements
+- Linux (Ubuntu/Debian) - I use Ubuntu 20.04.2 LTS
+
 ## How to use?
 
 First, you need change the file permission to run:

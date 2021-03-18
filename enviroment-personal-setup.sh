@@ -11,7 +11,7 @@ sudo -n true
 test $? -eq 0 || exit 1 "you should have sudo priveledge to run this script"
 
 for i in $LIST_OF_APPS_SNAP; do
-	snap install "$i" --classic &&
+	snap install "$i" --classic
 done
 
 echo "Preparing to add get Repositories Applications..."
